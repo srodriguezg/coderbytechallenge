@@ -1,0 +1,26 @@
+{
+  "name": "coderbytechallenge",
+  "version": "1.0.0",
+  "description": "This is a challenge to coderbyte site",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "test:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:srodriguezg/coderbytechallenge.git"
+  },
+  "author": "Santiago Rodriguez Gutierrez (santiagorock000@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@nrwl/cli": "15.9.3",
+    "@nrwl/cypress": "16.3.0",
+    "@nrwl/node": "16.3.0",
+    "cypress": "^12.13.0",
+    "cypress-wait-until": "^2.0.0"
+  }
+}
